@@ -1,0 +1,5 @@
+include ':ctrlr'
+include ':ctrl'
+include ':controller'
+include ':app'
+rootProject.name = "GameController"

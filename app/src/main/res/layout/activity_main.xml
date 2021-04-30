@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginBottom="148dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:rotation="45"
+        android:text="R"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_action_a"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="436dp"
+        android:layout_marginBottom="61dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="A"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_action_b"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="586dp"
+        android:layout_marginBottom="62dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="B"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="45dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:rotation="45"
+        android:text="D"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="63dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:rotation="45"
+        android:text="U"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="148dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:rotation="45"
+        android:text="L"
+        android:textSize="24sp" />
+
+</RelativeLayout>
